@@ -1,0 +1,92 @@
+.image-container img {
+    width: 150%; /* Make the image fill its container */
+    height: 100px; /* To maintain aspect ratio */
+}
+.image-container {
+    width: 1000px; /* Adjust this width as needed */
+    height: 100px; /* To maintain aspect ratio */
+}
+.taskbar {
+    background-color:#28907b;
+    text-shadow: none;
+    color: #fff; /* Background color of the taskbar */
+    padding: 10px 0; /* Top and bottom padding */
+}
+
+.taskbar ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center; /* Center align the list items */
+}
+
+.taskbar ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 100px;
+    margin-top:80px; /* Add spacing between list items */
+}
+
+.taskbar ul li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+}
+
+.taskbar ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.taskbar ul li a:hover {
+    text-decoration: underline;
+}
+.refer img
+{
+    width: 1500px;
+    height:100px;
+    min-height:400px;
+    background-size: cover;
+    background-position-x: right;
+    
+}
+.news-container {
+    height: 470px;
+    overflow: hidden;
+}
+.dna0 {
+    width: 30%;
+    float:right;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #aeb2b2;
+}
+.dna1{
+   /* padding-right: 40%;*/
+    box-sizing:border-box;
+    background-color: #70cdc8;
+    height:300px;
+}
+.dna2{
+    width:30%; /* Adjust width as needed */
+    float:left;
+    background-color: #f0f0f0;
+    
+    
+    margin: 0 10px;
+    height:260px;
+}
+.dna3{
+    width:70%;
+    padding-left:30%;
+    height:260px;
+    background-color: #e6c0c0;
+}
+.dna5 img{
+    padding-left:70%;
+    padding-right:30%;
+    height:260px;
+    width:30%;
+}
+.lgn{
+    margin-left:980px;
+    margin-top:2px;
+}

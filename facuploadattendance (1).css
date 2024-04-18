@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(computer2.png);
+    background-size: cover;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background-color: #260477;
+    padding: 30px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Arrange logos vertically */
+    transition: width 0.5s;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px; /* Adjust margin between logos */
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    color: white;
+    
+    display: none;
+}
+
+.logo-text:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imh {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 17px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-content {
+    margin-left: 250px; /* Adjusted to accommodate sidebar width */
+    padding: 20px;
+}
+.imh1{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    margin-left: -2px;
+    margin-top: -4px;
+    justify-content: center;
+
+}
+.sidebar:hover{
+    width: 140px;
+}
+.sidebar:hover .logo-text{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: blur;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.container{
+    max-width: 550px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    margin-left: 390px; 
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+.stucontainer form label {
+    color: white; /* Set label color to white */
+    display: inline-block; /* Display labels and inputs on the same line */
+    width: 90%; /* Set a fixed width for labels */
+    margin-right: 5px; /* Add space between labels and inputs */
+    text-align: left; 
+   
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+/*.container form label {
+    color: white; /* Set label color to white 
+    display: inline-block; /* Display labels and inputs on the same line 
+    width: 90%; /* Set a fixed width for labels 
+    margin-right: 5px; /* Add space between labels and inputs 
+    text-align: left; 
+   
+    font-size: 20px;
+    margin-left: -20px;/* Align labels to the right 
+}
+
+.container form input {
+    width: 95%; /* Adjust width of inputs 
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    box-sizing: none; /* Include padding and border in the width 
+}
+.container h1{
+    margin-left: 10px;
+    margin-right: 110px;
+}*/
+.container h2{
+    text-align: center;
+    color: white;
+}

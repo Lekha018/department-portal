@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    margin-top:50px;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top:30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+ 
+th {
+    background-color: #8e8585;
+  }
+td a{
+    margin-left: 10px; /* Adjust as needed */
+}
+td{
+    background-color: #34c9c2;
+}
+ 

@@ -1,0 +1,140 @@
+.achievements{
+    border-radius: 50px;
+    background: #621ece;
+    
+    float: right;
+    padding: 20px;
+    width: 200px;
+    margin: 60px;
+    height: 200px;
+}
+
+/* Header styles */
+.header {
+    top: 0;
+    left: 0;
+    height:100px;
+    width:100%;
+    background-color: #333;
+    color: #fff;
+    padding: 3px;
+    text-align: left;
+    
+    border-bottom: 4px solid #fff; 
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.achievements, .personal-details {
+    float: right; /* Float the blocks to the right */
+    clear: right; /* Clear the float to avoid overlap */
+    margin: 10px; /* Adjust margin as needed */
+}
+ .achievements {
+    background: #8FBC8F;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+}
+
+.personal-details{
+    background: #8FBC8F;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.achievements{
+    padding: 2px;
+}
+.personal-details {
+
+    background: #0eb389;
+    float: left;
+    padding: 20px;
+    width: 200px;
+    margin: 60px;
+    height: 80px;
+    margin-left: 170px;
+}
+.achievements{
+    background: #8FBC8F;
+    float: right;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    margin: 60px;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    margin-bottom: 10px;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav li a:hover {
+    background-color: #777;
+}
+
+.main-content {
+    margin-left: 220px; /* Adjusted to accommodate sidebar width */
+    padding: 20px;
+}
