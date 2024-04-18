@@ -1,0 +1,395 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(computer2.png);
+    background-size: cover;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+}
+.header {
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    color: #fff;
+    padding: 5px;
+    text-align: left;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background-color: #260477;
+    padding: 30px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Arrange logos vertically */
+    transition: width 0.5s;
+}
+
+.signup{
+    width: 360px;
+    height: 650px;
+    margin: auto;
+    border-radius: 20px;  
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 100px rgba(10, 10, 10, 0.1);
+}
+
+.stu{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;  
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+.login{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(10, 10, 10, 0.1);
+}
+
+h1{
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type = "submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type = "submit"]:hover{
+    color: white;
+    background: rgb(13, 211, 247);
+}
+/* Header styles */
+
+
+
+
+/*.footer {
+    background-color: #260477;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; 
+    width: 100%;
+    bottom: 0;
+}*/
+.main{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.marks, .achievements, .personal-details, .attendance {
+    float: right; /* Float the blocks to the right */
+    clear: right; /* Clear the float to avoid overlap */
+    margin: 10px; /* Adjust margin as needed */
+}
+.marks, .achievements {
+    background: #260477;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+}
+
+.personal-details, .attendance {
+    background: #8FBC8F;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+}
+
+.attendance, .achievements{
+    padding: 2px;
+}
+.personal-details {
+
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    float: left;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    margin: 60px;
+    height: 80px;
+    margin-left: 170px;
+    text-align: center;
+    color: white;
+}
+.personal-details a{
+    text-decoration: none;
+}
+
+.achievements{
+    border-radius: 20px;
+    background-color: #260477; /* Set background color */
+    background: rgba(255, 255, 255, 0.2); /* Set background with blur effect */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    float: right;
+    padding: 20px;
+    color: white;
+    width: 200px;
+    margin: 60px;
+    height: 200px;
+    text-align: center;
+}
+
+.achievements a{
+    text-decoration: none;
+}
+
+.attendance{
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    float: right;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    margin: 60px;
+    margin-top: 2px;
+}
+.attendance a{
+    text-decoration: none;
+}
+.marks {
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 20px;
+    float: left;
+    width: 200px;
+    box-shadow: #333;
+    text-align: center;
+    margin: 60px;
+    height: 80px;
+    color: white;
+    margin-left: 170px;
+    margin-top: 2px;
+    margin-bottom: 100px;
+  }
+
+.marks a{
+    text-decoration: none;
+}  
+.achievements p,
+.marks p,
+.attendance p,
+.personal-details p {
+    color: white; /* Set text color */
+    font-size: 26px;
+    text-align: center; /* Set font size */
+}
+.achievements{
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    float: right;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    margin: 60px;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px; /* Adjust margin between logos */
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    color: white;
+    
+    display: none;
+}
+
+.logo-text:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imh {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 17px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-content {
+    margin-left: 250px; /* Adjusted to accommodate sidebar width */
+    padding: 20px;
+}
+.imh1{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    margin-left: -2px;
+    margin-top: -4px;
+    justify-content: center;
+
+}
+.sidebar:hover{
+    width: 140px;
+}
+.sidebar:hover .logo-text{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: blur;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    margin-left: 250px; 
+    background-color: #260477;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);/* Add padding for better spacing */
+}
+.stucontainer{
+    max-width: 550px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    margin-left: 230px; 
+    background-color: #260477;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+.stucontainer form label {
+    color: white; /* Set label color to white */
+    display: inline-block; /* Display labels and inputs on the same line */
+    width: 90%; /* Set a fixed width for labels */
+    margin-right: 5px; /* Add space between labels and inputs */
+    text-align: left; 
+   
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.container form label {
+    color: white; /* Set label color to white */
+    display: inline-block; /* Display labels and inputs on the same line */
+    width: 90%; /* Set a fixed width for labels */
+    margin-right: 5px; /* Add space between labels and inputs */
+    text-align: left; 
+   
+    font-size: 20px;
+    margin-left: 20px;/* Align labels to the right */
+}
+
+.container form input {
+    width: 95%; /* Adjust width of inputs */
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    box-sizing: none; /* Include padding and border in the width */
+}
+.stucontainer form input {
+    width: 320px; /* Adjust width of inputs */
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+    box-sizing: none;
+}
+.container h1{
+    margin-left: 10px;
+    margin-right: 110px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
